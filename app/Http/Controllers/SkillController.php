@@ -21,7 +21,7 @@ class SkillController extends Controller
      */
     public function create()
     {
-        //
+        return Inertia::render("Skills/Create");
     }
 
     /**

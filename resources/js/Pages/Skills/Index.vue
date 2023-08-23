@@ -1,5 +1,5 @@
 <template >
-    <Head title="Skills Index"/>
+    <Head title="Skills Index" />
 
     <AuthenticatedLayout>
         <template #header>
@@ -8,7 +8,11 @@
 
         <div class="py-12">
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                Table
+                <div class="flex justify-end m-2 p-2">
+                    <Link href="/skills/create"
+                        class="bg-indigo-500 px-4 py-2 text-white hover:bg-indigo-700 rounded-full">New Skill
+                    </Link>
+                </div>
             </div>
         </div>
     </AuthenticatedLayout>
@@ -17,5 +21,5 @@
 
 <script setup>
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
-import { Head } from '@inertiajs/vue3';
+import { Head, Link } from '@inertiajs/vue3';
 </script>

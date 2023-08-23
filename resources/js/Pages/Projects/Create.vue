@@ -1,16 +1,16 @@
 <template >
-    <Head title="Projects Index" />
+    <Head title="New Skill" />
 
     <AuthenticatedLayout>
         <template #header>
-            <h2 class="font-semibold text-xl text-gray-800 leading-tight">Projects</h2>
+            <h2 class="font-semibold text-xl text-gray-800 leading-tight">New Project</h2>
         </template>
 
         <div class="py-12">
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-end m-2 p-2">
-                    <Link href="/projects/create" class="bg-indigo-500 px-4 py-2 text-white hover:bg-indigo-700 rounded-full">
-                    New Project
+                    <Link href="/projects/index"
+                        class="bg-indigo-500 px-4 py-2 text-white hover:bg-indigo-700 rounded-full">New Project
                     </Link>
                 </div>
             </div>
