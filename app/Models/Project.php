@@ -16,7 +16,7 @@ class Project extends Model
         "url",
     ];
 
-    public function skills()
+    public function skill()
     {
         return $this->belongsTo(Skill::class);
     }
